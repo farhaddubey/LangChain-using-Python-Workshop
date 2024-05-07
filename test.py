@@ -36,3 +36,4 @@ for chunk in chat.stream(messages):
 print(chat.batch([messages]))
 # Now the messages in batch will be displayed............ 
 # await chat.ainvoke(messages) 
+
